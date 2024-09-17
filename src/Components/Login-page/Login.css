@@ -1,0 +1,51 @@
+#nuflix__login {
+    background: url('../../assets/login_bg_1920.jpg');
+    padding: 80px 144px;
+    background-size: 100%;
+    height: 100%;
+}
+
+.login__tagline-wrapper .login__tagline {
+   text-transform: uppercase;
+}
+
+form a{ 
+    display: flex;
+}
+
+@keyframes moveBackground {
+    from {
+        background-position: center top;
+    }
+
+    to {
+        background-position: center bottom;
+    }
+}
+
+
+@media (max-width:1200px) {
+    #nuflix__login {
+        background: url('../../assets/login_bg_768.jpg');
+        padding: 40px 50px;
+        height: 100%;
+    }
+    .login__tagline-wrapper .login__tagline {
+        font-size: 58px;
+    }
+}
+
+@media (max-width:600px) {
+    #nuflix__login {
+        background: url('../../assets/login_bg_mobjpg.jpg');
+        padding: 25px;
+    }
+    .login__input-wrap {
+        flex-direction: column;
+
+    }
+
+    .login__tagline-wrapper .login__tagline {
+        font-size: 32px;
+    }
+}

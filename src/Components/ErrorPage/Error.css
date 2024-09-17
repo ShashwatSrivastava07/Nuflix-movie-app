@@ -1,0 +1,26 @@
+.error {
+    background: url('../../assets/login_bg_1920.jpg');
+    padding: 80px 144px;
+    background-size: 100%;
+}
+
+@media (max-width:1200px) {
+    .error {
+        background: url('../../assets/login_bg_768.jpg');
+        padding: 40px 50px;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-wdth:600px) {
+
+    .error {
+        background: url('../../assets/login_bg_mobjpg.jpg');
+        padding: 25px;
+    }
+
+    .error div img {
+        display: none;
+    }
+}
